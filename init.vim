@@ -24,7 +24,7 @@ call minpac#add('neoclide/coc.nvim', {'branch': 'release'})
 call minpac#add('junegunn/fzf.vim')
 
 call minpac#add('drewtempelmeyer/palenight.vim', {'type': 'opt'})
-call minpac#update()
+
 packadd palenight.vim
 colorscheme palenight
 let g:one_allow_italics = 1
